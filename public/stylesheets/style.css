@@ -1,0 +1,205 @@
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	font: 14px "Sorts Mill Goudy", Helvetica, Arial, sans-serif;
+	color:#76666a;
+	background:snow;
+}
+
+.clearfix {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+.cover_frame {
+	/*border-top: 100px solid white;*/
+	/*border-bottom: 100px solid white;*/
+}
+
+.col {
+	width:30%;
+	float:left;
+	display:block;
+}
+
+nav {
+	padding: 0 0 0 20px;
+	height:100px;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+.logo{
+	background: url('../images/Logo-Verodalla-Noir.png') no-repeat center center;
+	background-size: contain;
+	width: 450px;
+	height: 300px;
+	margin-top:100px;
+	float:left;
+}
+
+.social_media{
+	float:right;
+	width:275px;
+	display:inline-block;
+	padding-top:33px;
+}
+
+.social_media div{
+	display:inline-block;
+	margin-right:50px;
+}
+
+.social_media div:hover{
+	opacity:0.8;
+}
+
+.twitter{
+	background: url('../images/twitter.png') no-repeat center 100%;
+	background-size: contain;
+	width: 35px;
+	height: 40px;
+}
+
+.facebook{
+	background: url('../images/facebook.png') no-repeat center center;
+	background-size: contain;
+	width: 25px;
+	height: 25px;
+}
+
+.instagram {
+	background: url('../images/instagram.png') no-repeat center center;
+	background-size: contain;
+	width: 25px;
+	height: 25px;
+}
+
+.cover_photo {
+	background: url('../images/inner_journey.jpg') no-repeat center 43%;
+	background-size: contain;
+	width: 100%;
+	height: 500px;
+
+}
+
+nav .logo{
+	background: url('../images/Logo-Verodalla-Noir.png') no-repeat center center;
+	width:150px;
+	height:100px;
+	background-size:contain;
+	margin-top: 0;
+	/*position:relative;*/
+}
+
+.inner_journey{
+	background: url('../images/inner_journey copy.jpg') no-repeat center center;
+	width:200px;
+	height:200px;
+	/*background-size: 70%;*/
+}
+.livinlulu{
+	background: url('../images/LivinLuLu.jpg') no-repeat center center;
+	width:200px;
+	height:200px;
+	background-size:cover;
+}
+
+.poppies{
+	background: url('../images/poppies.jpg') no-repeat center 60%;
+	width:200px;
+	height:200px;
+	/*background-size:cover;*/
+}
+.about{
+	background: url('../images/about.jpg') no-repeat center center;
+	width:200px;
+	height:200px;
+	background-size:cover;
+}
+.exhibits{
+	background: url('../images/exhibits.png') no-repeat center center;
+	width:200px;
+	height:200px;
+	background-size:cover;
+}
+.press{
+	background: url('../images/press.jpg') no-repeat center 0;
+	width:200px;
+	height:200px;
+	background-size:cover;
+}
+
+.gallery_item {
+	float:left;
+	margin:30px 50px;
+	border:5px solid transparent;
+}
+
+.gallery_item:hover {
+	border:5px solid red;
+}
+
+button {
+	border:0;
+	background:white;
+	position:relative;
+	bottom: 400px;
+	margin: 0 20px;
+	outline:none;
+	cursor:pointer;
+	display:none;
+}
+
+button:first-child{
+	width: 100px; 
+	height: 175px; 
+	background:url('../public/left_arr.png') no-repeat center center;
+	background-size:contain;
+	float:left;
+}
+
+button:nth-child(2) {
+	width: 100px; 
+	height: 175px; 
+	background:url('../public/right_arr.png') no-repeat center center;
+	background-size:contain;
+	float:right;
+
+}
+
+.main_gallery{
+	/*height:700px;*/
+	width:1000px;
+	margin:0 auto 20px auto;
+}
+
+
+
+
+a {
+  color: #00B7FF;
+}
+
+/*div {
+	float:left;
+	margin-right:20px;
+	margin-top:20px;
+}*/
+
+/*div:nth-child(7n+0) {
+	width:310px !important;
+	height:350px !important;
+	/*background-size:initial !important;
+}*/
+
+/*container{
+	width:85%;
+	margin:0 auto 50px auto;
+	float:none;
+}*/
